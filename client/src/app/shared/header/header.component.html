@@ -1,0 +1,51 @@
+<header class="p-3 text-bg">
+
+      <div class="d-flex  row flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class=" col-2 d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img alt="Chatbot Fiscal" nitro-lazy-src="https://cdn-fifik.nitrocdn.com/wHByBFjGTWYztLTpOcJrvdWtskIdoYjs/assets/images/optimized/rev-b389331/wp-content/uploads/2022/04/Group-75.png" class="logo-default ps-5" decoding="async" nitro-lazy-empty="" id="NDA6OTI=-1" src="https://cdn-fifik.nitrocdn.com/wHByBFjGTWYztLTpOcJrvdWtskIdoYjs/assets/images/optimized/rev-b389331/wp-content/uploads/2022/04/Group-75.png">
+        </a>
+  <div class="col-7" >
+    <ul class="nav px-3 textul col-lg-auto me-lg-auto mb-2 justify-content-start mb-md-0 logospace">
+      <!-- Navigation items -->
+      <li><a [matMenuTriggerFor]="lvl1master" class="nav-link px-3 text-white motnav">Ressources</a></li>
+      <li><a href="#" class="nav-link px-3 text-white motnav" routerLink="/Investissement">Investissements</a></li>
+      <li><a href="#" class="nav-link px-3 text-white motnav"routerLink="/PDF">Fiscalité Internationale</a></li>
+      <li><a href="#" class="nav-link px-3 text-white motnav">Détermination Fiscal</a></li>
+      <mat-menu #lvl1master="matMenu" class="mt-3">
+          <button routerLink="/ressourceLegale" [matMenuTriggerFor]="ressources" mat-menu-item>Ressources légales et administratives</button>
+          <button [matMenuTriggerFor]="ressourcesEy" mat-menu-item>Ressources EY</button>
+      </mat-menu>
+      <mat-menu #ressources="matMenu">
+          <button mat-menu-item>Lois de finances</button>
+          <button mat-menu-item>Notes communes</button>
+          <button mat-menu-item>Recueils des textes fiscaux</button>
+          <button mat-menu-item>Mesures fiscales</button>
+          <button [matMenuTriggerFor]="investissements" mat-menu-item>Investissements et avantages fiscaux</button>
+      </mat-menu>
+      <mat-menu #ressourcesEy="matMenu">
+          <button mat-menu-item>Revues fiscales EY</button>
+          <button mat-menu-item>Commentaires EY</button>
+      </mat-menu>
+      <mat-menu #investissements="matMenu">
+          <button mat-menu-item>Loi d'investissement</button>
+          <button mat-menu-item>Loi portant refonte du dispositif des avantages fiscaux</button>
+          <button mat-menu-item>Autres textes</button>
+      </mat-menu>
+    </ul>
+
+  </div>
+
+  <div class="col-3" >
+    <div class="my-autoo">
+      <div class="d-flex mb-2 justify-content-center mb-md-0 posRel">
+        <form class="d-flex align-items-center">
+          <input type="search" placeholder="Rechercher ...">
+          <i class="fa fa-search"></i>
+        </form>
+      </div>
+    </div>
+  </div>
+
+      </div>
+
+</header>

@@ -1,0 +1,8 @@
+.footer-bs{
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+	left: 0;
+    background-color: #2e2e38;
+	font-family: 'EYInterstate',sans-serif;
+}

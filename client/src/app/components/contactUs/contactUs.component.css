@@ -1,0 +1,86 @@
+.contact{
+  overflow-x: hidden !important;
+}
+
+.contact-title{
+  font-size: 50px;
+  color: #fff !important;
+}
+.yellow-color{
+  color: #ffe600;
+}
+.form-layout{
+  background-color: #2e2e38 !important;
+}
+.form-input{
+  width: 90%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: #eaeaf2;
+  color: #2e2e38;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+}
+.form-select{
+  background-color: #18187d;
+}
+.bg-option:hover { background-color: black !important;}
+
+.buttonright{
+  padding-right: 61px !important;
+}
+.button-style{
+  display: inline-block;
+  border-radius: 0% !important;
+  background-color: #2e2e38 ;
+  color: #ffe600;
+  font-size: 1.3rem;
+  text-align: center;
+  height: 50px;
+  width: 120px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border: 1px solid #ffe600;
+  cursor: pointer;
+  transition: ease .20s;
+ 
+}
+.button-style:hover{
+  color: #2e2e38 ;
+  background-color: #ffe600 ;
+  font-size: 1.3rem;
+}
+
+.contact-img img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,.5)) !important;
+
+
+}
+
+
+  .contact-img{
+    height: 100%;
+  }
+  
+h2 {
+    text-align: center;
+  }
+.img-container-layout{
+  background-color: inherit !important;
+
+}
+.test{
+  z-index: 1000;
+  background: #2e2e38;
+}
+.form-layout{
+  padding-top: 3rem;
+}

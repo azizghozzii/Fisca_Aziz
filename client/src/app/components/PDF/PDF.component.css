@@ -1,0 +1,56 @@
+.pdf-container {
+  margin-bottom: 20px;
+}
+
+.pdf-wrapper {
+  position: relative;
+}
+
+.pdf-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+  display: flex;
+}
+
+.pdf-buttons button {
+  margin-right: 10px;
+}
+.pdf-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.pdf-card {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.pdf-card:last-child {
+  margin-right: 0;
+}
+.pdf-header {
+  /* Styles pour la zone d'en-tête facultative */
+}
+
+.pdf-media {
+  /* Styles pour le média enrichi */
+}
+
+.pdf-text {
+  /* Styles pour le texte de support */
+}
+
+.pdf-actions {
+  /* Styles pour la zone d'actions supplémentaires */
+}
+.card-text{
+  margin-top: 26px;
+  margin-bottom: 0rem;
+  margin-left: 1rem;
+}
+

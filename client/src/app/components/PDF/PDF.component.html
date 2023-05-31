@@ -1,0 +1,155 @@
+<div class="container d-flex justify-content-center" style="padding: 4%;" >
+  <div class="row" >
+    <div class="col-sm-12 col-md-6 col-lg-4"*ngFor="let pdfUrl of pdfUrls" style="margin-top: 20px;">
+      <div class="card" style="width: 20rem">
+        <div>
+        <img
+          class="card-img-top"
+          src="../../../assets/pdf.PNG"
+          alt="Card image cap"
+        /></div>
+        <div class="card-body" >
+          <div class="card-header d-flex justify-content-between">
+
+            <div>
+              <h5 class="card-title m-0" >Revue Fiscale</h5>
+  
+            </div>
+          </div>
+
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p> 
+          <div class="card-bottom d-flex justify-content-between">
+            <div class="div d-flex gap-3 justify-content-between" style="    margin-left: 15rem;
+            margin-top: 1rem;">
+              
+               <!-- <p class="btn text-primary pe-auto"   >Télécharger</p> 
+               <i class="btn bi bi-download d-block d-sm-none"></i> --><i class="fa-solid fa-circle-down"(click)="downloadPdf(pdfUrl)"></i> 
+              <!-- <p class="btn text-primary" >Voir</p>
+             
+              <i class="btn bi bi-eye d-block d-sm-none"></i> -->
+              <i class="fa-solid fa-eye"(click)="openPdf(pdfUrl)"></i>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" style="width: 20rem">
+      
+        <img
+          class="card-img-top"
+          src="../../../assets/pdf2.PNG"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <div class="card-header d-flex justify-content-between">
+
+            <div>
+              <h5 class="card-title m-0">Revue Fiscale EY</h5>
+  
+            </div>
+          </div>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="card-bottom d-flex justify-content-between">
+            <div class="div d-flex gap-3 justify-content-between">
+              <p class="btn text-primary pe-auto"  (click)="downloadPdf(pdfUrl)" >Télécharger</p>
+              <p class="btn text-primary" (click)="openPdf(pdfUrl)">Voir</p>
+            </div>
+            <div class="div d-flex gap-3">
+              <i class="btn bi bi-heart-fill"></i>
+              <i class="btn bi bi-share-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" style="width: 20rem">
+        
+        <img
+          class="card-img-top"
+          src="../../../assets/pdf3.PNG"
+          alt="Card image cap"
+        />
+      
+        <div class="card-body">
+          <div class="card-header d-flex justify-content-between">
+
+            <div>
+              <h5 class="card-title m-0">Revue Fiscale</h5>
+  
+            </div>
+          </div>
+          <p class="card-text">
+            
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <div class="card-bottom d-flex justify-content-between">
+            <div class="div d-flex gap-3 justify-content-between">
+              <p class="btn text-primary pe-auto"  (click)="downloadPdf(pdfUrl)" >Télécharger</p>
+              <p class="btn text-primary" (click)="openPdf(pdfUrl)">Voir</p>
+            </div>
+            <div class="div d-flex gap-3">
+              <i class="btn bi bi-heart-fill"></i>
+              <i class="btn bi bi-share-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</div>
+
+
+
+
+
+
+   <!--  <div>
+      <div class="pdf-container" *ngFor="let pdfUrl of pdfUrls">
+        <div
+          class="pdf-wrapper"
+          (mouseenter)="showButtons = true"
+          (mouseleave)="showButtons = false"
+        > -->
+          <!--     //la balise <embed> est utilisée pour incorporer un fichier PDF dans une page HTML. Elle prend un attribut src qui spécifie l'URL du fichier PDF à afficher.
+ -->
+         <!--  <embed
+            [src]="getSafeUrl(pdfUrl)"
+            type="application/pdf"
+            width="100%"
+            height="600px"
+          /> -->
+         <!--  <div class="pdf-card">
+            <div class="pdf-header">
+              <!-- Zone d'en-tête facultative 
+              <h2>Titre du PDF</h2>
+            </div>
+            <div class="pdf-media">-->
+              <!-- Média enrichi (par exemple, image, vidéo, etc.) -->
+            <!--   <img src="../../../assets/cadre.webp" alt="Media" />
+            </div>
+            <div class="pdf-buttons" *ngIf="showButtons">
+              <div class="pdf-text">
+                 Texte de support 
+                <p>Description ou informations supplémentaires sur le PDF.</p>
+              </div>
+              <div class="pdf-actions">-->
+                <!-- Zone d'actions supplémentaires 
+                <button (click)="downloadPdf(pdfUrl)">Télécharger</button>
+                <button (click)="openPdf(pdfUrl)">Ouvrir</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> --> 
+

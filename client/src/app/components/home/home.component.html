@@ -1,0 +1,85 @@
+<div class="con p-5 " style="overflow: hidden !important; height: 500px !important ;   ">
+  <div id="carouselExampleIndicators" class="carousel slide  " data-ride="carousel" style="overflow: hidden !important;
+   /* margin-top: 3rem;
+  padding-left: 17rem;
+  padding-right: 17rem;
+  margin-bottom: 6rem; */ ">
+ 
+    
+   <div id="carousel-inner" class="carousel-inner" style="overflow: visible !important;"   >
+              <div id="carousel-item"  class="carousel-item" *ngFor="let ressource of ressources" style="background-repeat: no-repeat;background-size: cover; background-image: url({{ressource.image}});">
+                      <a  class="link"  href="google.com"  data-image="">
+                          <div class="link-content">
+                              <h2> {{ressource.title}}
+                              </h2>
+                          <span class="link-body">
+                            {{ressource.sousTitle}}
+                          </span>
+                          <div class="link-footer d-flex align-items-center gap-1">
+                              <span class="footer-text">
+                                  Discover
+                              </span>
+                              <i class="bi bi-arrow-right pt-1"></i>
+                          </div>
+                      </div> 
+                      </a>
+                      
+                      
+              </div>
+           
+    </div>
+    <div>
+        <p class="carousel-control-prev" role="button" data-slide="prev" appPrev>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </p>
+    </div>
+    <div>
+
+        <p class="carousel-control-next"  role="button" data-slide="next" appNext>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </p>
+    </div>
+  </div>
+</div>
+<div class="actuel p-5" >
+  <h2>Actualités & Événements</h2>
+</div>
+<br />
+<div class="p-5">
+  <div
+    class="card d-flex flex-row col-12 "
+    style="width: 100%; height: 576px; margin-left: -7px"
+  >
+    <img
+      src="../../../assets/2.jpg"
+      alt="Card image cap"
+      style="width: 50%" class="col-6"
+    />
+    <div
+      style="
+        width: 50%;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px; "class="col-6"
+      
+    >
+      <h3>
+        Mai 2022: Parution du Mémento de l’investissement et des avantages
+        fiscaux
+      </h3>
+      <p class="card-text" style="margin-top: 80px">
+        le Mémento de l’investissement et des avantages fiscaux de son
+        auteur Faez Choyakh vient à point nommé. Expert-comptable, associé
+        au cabinet EY Tunisie en charge de la fiscalité et de la
+        compliance, Il nous livre, dans un style didactique, le régime
+        juridique régissant le l’investissement et les avantages fiscaux
+        et financiers et leur application en Tunisie.
+      </p>
+      <h5 style="color: blue; margin-top: 80px; text-align: right">
+        Savoir plus
+      </h5>
+    </div>
+  </div>
+</div>

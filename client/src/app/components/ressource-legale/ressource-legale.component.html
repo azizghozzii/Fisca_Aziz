@@ -1,0 +1,14 @@
+<div>
+    <div class="main-div" [style.backgroundImage]="'url(' + backgroundImageSrc + ')'">
+        <div class="child-div" (mouseenter)="changeBackground('https://images.pexels.com/photos/2754200/pexels-photo-2754200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')" (mouseleave)="resetBackground()">
+        <h1>Div 1</h1>
+        </div>
+        <div class="child-div" (mouseenter)="changeBackground('https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')" (mouseleave)="resetBackground()">  
+        <h1>Div 2</h1>  
+        </div> 
+        <div class="child-div" (mouseenter)="changeBackground('https://images.pexels.com/photos/2387866/pexels-photo-2387866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')" (mouseleave)="resetBackground()">
+        <h1>Div 3</h1>
+        </div>    
+    </div>
+</div>
+

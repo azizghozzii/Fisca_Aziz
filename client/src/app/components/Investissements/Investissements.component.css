@@ -1,0 +1,24 @@
+.coll{
+  padding: 10px;
+  color: rgb(239, 234, 234);
+  background-color:#00000078 ;
+  flex : 0 0 calc(100% / 5);
+  transition: all ease-in .5s;
+  font-family: 'EYInterstate',sans-serif;
+}
+.coll:hover{
+  color: white;
+  font-size: larger;
+  background: transparent;
+  transition: all ease-in .5s;
+  font-family: 'EYInterstate',sans-serif;
+}
+.invest{
+  height: 625px !important;
+}
+.arie{
+  background-repeat: no-repeat;
+background-size: cover;
+background-image: url('../../../assets/1.jpg');
+height: 625px !important;
+}

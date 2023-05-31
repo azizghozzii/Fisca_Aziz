@@ -1,0 +1,109 @@
+@media (max-width: 1199.98px) {  .carousel-item{
+  
+  flex : 0 0 calc(100% / 3) !important;
+ 
+} }
+ @media (max-width:991px){
+  .carousel-item{
+
+    flex : 0 0 calc(100% / 2) !important;
+   
+  }
+}
+  @media (max-width:570px){
+    .carousel-item{
+  
+      flex : 0 0 100% !important;
+     
+    }
+
+ }
+
+ .carousel-item{
+   display: block;
+    height: 100%;
+   flex : 0 0 calc(100% / 3);
+   margin-right:0px !important;
+ }
+ .carousel-inner{
+   display: flex !important ;
+   gap : 20px;
+   transition: all linear .8s ;
+   
+ }
+ .carousel-control-next, .carousel-control-prev{
+   top: 50%;
+   bottom: 50%;
+ }
+ #carouselExampleIndicators,.cards,#carousel-inner{
+   height: 100% !important;
+ }
+ #carouselExampleIndicators{
+   width: 100%;
+   position: relative;
+   
+ }
+ .con{
+   position: relative;
+   height: 80vh !important;
+   width: 100%;
+  
+ }
+ .link {
+  
+  height: 100%;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   display: flex; 
+ }
+ .link::before{
+   content: '';
+   display: block;
+   background: linear-gradient( to bottom,#00000080 50%,rgba(0,0,0,0.6) 80%,rgba(0,0,0,0.4) 100%);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 2px;
+   left: 0;
+ }
+ #backgroundimage{
+   position: absolute;
+   width: 100%;
+   height: 100%;  
+ }
+ .link:hover{
+   background-color: rgba(0, 0, 0, 0.402);
+ }
+ .link-content{
+   z-index: 9;
+   height: fit-content;
+   width: 100%;
+   display: flex;
+   align-self: end;
+   flex-direction: column;
+   padding: 15px;
+ }
+ .link-body{
+   max-height: 0px;
+   overflow: hidden;
+   transition: all ease-in .8s;
+ }
+ .link:hover .link-body,.link.hover .link-body{
+   max-height: 100px;
+   transition: all ease-in .8s;
+ }
+ .footer-text{
+   max-width: 0px;
+   overflow: hidden;
+   transition: all ease-in .8s;
+
+ }
+ .link:hover .footer-text,.link.hover .footer-text{
+   max-width: 200px;
+   transition: all ease-in .8s;
+ }
+
+ .carousel-control-prev,.carousel-control-next{
+   z-index: 99;
+   color: #fff;
+ }
